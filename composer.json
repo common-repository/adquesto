@@ -1,0 +1,15 @@
+{
+  "name": "questo/questo",
+  "require": {
+    "php": ">=5.4",
+    "fkooman/oauth2-client": "7.1.3",
+    "adquesto/adquesto-php-sdk": "0.4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Questo\\": "src/Questo",
+      "Adquesto\\SDK\\": "vendor/adquesto/phpsdk/src"
+    }
+  },
+  "prefer-stable": true
+}

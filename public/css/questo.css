@@ -1,0 +1,277 @@
+/**
+ * Imports
+ */
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+/**
+ * General
+ */
+.questo-settings {
+    width: 860px;
+    font-family: 'Lato', sens-serif;
+}
+
+.questo-key-icon {
+    width: 15px;
+    margin-right: 7px;
+}
+
+.questo-big-logo {
+    width: 170px;
+    padding: 30px 0 20px 0;
+}
+
+.questo-settings input[type="submit"] {
+    height: 39px;
+    font-size: 17px;
+    line-height: 28px;
+    width: 120px;
+    background: #0085ba;
+    border-color: #0073aa #006799 #006799;
+    -webkit-box-shadow: 0 1px 0 #006799;
+    box-shadow: 0 1px 0 #006799;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+    padding: 3px 5px;
+    margin: 0;
+}
+
+.questo-row {
+    background-color: #FFF;
+    width: 610px;
+    text-align: left;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.questo-row p {
+    padding: 5px 5px 5px 19px;
+    margin: 0;
+}
+
+.questo-settings .questo-row h1 {
+    padding: 22px 0 12px 18px;
+}
+
+.questo-settings h1 {
+    margin: 0 0 8px 0;
+    padding: 16px 0 12px 13px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: normal;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.questo-settings h2 {
+    font-size: 14px;
+    margin: 0 0 24px 0;
+}
+
+.adquesto-master-switch {
+    font-weight: bold;
+}
+.adquesto-master-switch.off {
+    color: rgba(204, 51, 0, 1);
+}
+.adquesto-master-switch.on {
+    color: #009900;
+}
+
+input[type="checkbox"].ios8-switch {
+    position: absolute;
+    margin: 8px 0 0 16px;
+}
+input[type="checkbox"].ios8-switch + label {
+    position: relative;
+    padding: 5px 0 0 50px;
+    line-height: 2.0em;
+}
+input[type="checkbox"].ios8-switch + label:before {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    width: 40px; /* x*5 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: rgba(204, 51, 0, 1);
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch + label:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 0px;
+    width: 24px; /* x*3 */
+    height: 24px; /* x*3 */
+    border-radius: 16px; /* x*2 */
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+input[type="checkbox"].ios8-switch + label:hover:after {
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+input[type="checkbox"].ios8-switch:checked + label:after {
+    margin-left: 16px;
+}
+input[type="checkbox"].ios8-switch:checked + label:before {
+    background: #009900;
+}
+.questo-display-option {
+    margin-bottom: 10px;
+}
+.questo-display-option input[type=radio] {
+    margin: 0;
+}
+.questo-display-option label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 5px;
+}
+.questo-display-hint {
+    margin: 10px 0 10px;
+}
+
+/**
+ * Requirements section
+ */
+.questo-requirements:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.questo-requirements p {
+    padding: 10px 13px 1px 13px;
+    margin: 0;
+}
+
+.questo-requirements {
+    border-left: 5px solid #DA3438;
+    width: 920px;
+    background-color: #FFF;
+    padding-bottom: 40px;
+    margin-bottom: 25px;
+}
+
+/**
+ * Display settings
+ */
+.questo-display-settings {
+    padding: 24px 24px 0 24px;
+}
+
+.questo-display-settings-container p {
+    padding: 5px 5px 5px 19px;
+}
+
+.questo-display-settings .questo-pull-left {
+    float: left;
+    height: 245px;
+    width: 245px;
+    overflow-x:  hidden;
+    -ms-overflow-x:  hidden;
+    overflow-y:  auto;
+    -ms-overflow-y:  auto;
+    border-right: 1px solid #E5E5E5;
+    margin: 0 40px 0 0;
+}
+
+.questo-display-settings .questo-pull-left:first-child {
+    margin-left: 14px;
+}
+.questo-display-settings .questo-pull-left:last-child {
+    border-right: none;
+    margin-right: 14px;
+}
+
+.questo-display-settings .questo-pull-left > div {
+    padding-bottom: 5px;
+}
+
+.questo-display-settings::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.questo-categories-options-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.questo-newly-added-categories {
+    margin-top: 25px;
+    padding: 16px 5px 5px 5px;
+    border-top: 1px solid #E5E5E5;
+    width: 95%;
+}
+.questo-newly-added-categories > div {
+    margin-bottom: 15px;
+}
+.questo-newly-added-categories > div:last-child {
+    margin-bottom: 0;
+}
+/**
+ * Standard form
+ */
+.questo-standard-form {
+    padding: 22px 38px 0 38px;
+}
+.questo-standard-form > div:last-child input {
+    margin-bottom: 12px;
+}
+.questo-standard-form input {
+    width: 400px;
+    height: 35px;
+    padding-left: 10px;
+    margin: 8px 0 38px 0;
+}
+.questo-standard-form label {
+    display: block;
+    line-height: 15px;
+}
+
+.questo-settings .submit {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Checkboxes levels
+ */
+input[type="checkbox"].checkbox-level-1 {
+    margin-left: 20px;
+}
+input[type="checkbox"].checkbox-level-2 {
+    margin-left: 40px;
+}
+input[type="checkbox"].checkbox-level-3 {
+    margin-left: 60px;
+}
+
+/**
+ * Footer
+ */
+.questo-footer:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+.questo-footer p:first-child {
+    float: left;
+}
+
+.questo-footer p:last-child {
+    float: right;
+    text-align: right;
+    margin: 29px 0 0 0;
+}

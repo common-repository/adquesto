@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "post_metabox_option_hint"
+msgstr "Zasady działania Adquesto dla tego wpisu"
+
+msgid "post_metabox_option_enabled_in_the_post"
+msgstr "Zgodnie z <a href=\"options-general.php?page=questo_settings\" target=\"_blank\">ustawieniami wtyczki</a>"
+
+msgid "post_metabox_option_disabled_in_the_post"
+msgstr "Nie wyświetlaj questów"
+
+msgid "settings_button_save"
+msgstr "Zapisz"
+
+msgid "settings_requirements_header"
+msgstr "Problemy"
+
+msgid "settings_requirements_info"
+msgstr "Wtyczka wymaga włączenia następujących bibliotek w celu prawidłowego działania:"
+
+msgid "settings_display_header"
+msgstr "Ustawienia wyświetlania questów"
+
+msgid "settings_display_info"
+msgstr "Wybierz, na jakich wpisach mają się wyświetlać questy."
+
+msgid "settings_display_post_types"
+msgstr "Typy wpisów"
+
+msgid "settings_display_categories"
+msgstr "Kategorie wpisów"
+
+msgid "settings_configuration_header"
+msgstr "Klucze konfiguracji wtyczki"
+
+msgid "settings_configuration_info"
+msgstr "Klucze znajdziesz w"
+
+msgid "settings_configuration_link_text"
+msgstr "panelu Adquesto"
+
+msgid "adquesto_subscriber"
+msgstr "Subskrybent Adquesto"
+
+msgid "settings_newly_added_categories"
+msgstr "Włączaj Adquesto dla nowo dodawanych kategorii"
+
+msgid "settings_display_header_master_switch"
+msgstr "Aktywacja Adquesto"
+
+msgid "settings_master_switch_is_off"
+msgstr "Adquesto jest wyłączone."
+
+msgid "settings_master_switch_is_off_hint"
+msgstr "Questy nie będą wyświetlane na żadnych wpisach."
+
+msgid "settings_master_switch_is_on"
+msgstr "Adquesto jest włączone."
+
+msgid "settings_master_switch_is_on_hint"
+msgstr "Questy będą wyświetlane zgodnie z ustawieniami wyświetlania."
+
+msgid "settings_positioning_header"
+msgstr "Domyślna pozycja questu"
+
+msgid "settings_positioning_subheader"
+msgstr "Wybierz, na jakiej wysokości wpisu ma się domyślnie wyświetlać quest (możesz nadpisać dla poszczególnych wpisów)."
+
+msgid "settings_positioning_upper"
+msgstr "Wyżej"
+
+msgid "settings_positioning_upper_hint"
+msgstr "Opcja zalecana dla serwisów, w których przewazają krótkie wpisy (1500-2500 znaków) np. większość treści newsowych lub takich, w których główną treścią jest materiał wideo."
+
+msgid "settings_positioning_lower"
+msgstr "Niżej"
+
+msgid "settings_positioning_lower_hint"
+msgstr "Opcja zalecana dla serwisów, w których przeważają długie wpisy (powyżej 2500 znaków), np. tematyczne artykuły specjalistyczne."
+
+msgid "settings_display_for_users_hint"
+msgstr "Nie wyświetlaj questów zalogowanym administratorom, redaktorom i autorom"

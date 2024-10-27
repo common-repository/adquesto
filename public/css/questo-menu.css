@@ -1,0 +1,3 @@
+#adminmenu .toplevel_page_questo_settings div.wp-menu-image:before {
+    content: url('../img/logo.svg');
+}

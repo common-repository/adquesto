@@ -1,0 +1,85 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "post_metabox_option_hint"
+msgstr "Quest display in this post:"
+
+msgid "post_metabox_option_enabled_in_the_post"
+msgstr "According to <a href=\"options-general.php?page=questo_settings\" target=\"_blank\">plugin settings</a>"
+
+msgid "post_metabox_option_disabled_in_the_post"
+msgstr "Do not show quests"
+
+msgid "settings_button_save"
+msgstr "Save"
+
+msgid "settings_requirements"
+msgstr "Problems"
+
+msgid "settings_requirements_info"
+msgstr "The plugin requires the following libraries to be enabled:"
+
+msgid "settings_display_header"
+msgstr "Enable Adquesto"
+
+msgid "settings_display_info"
+msgstr "Select on which pages Adquesto should be enabled."
+
+msgid "settings_display_post_types"
+msgstr "Post types"
+
+msgid "settings_display_categories"
+msgstr "Categories"
+
+msgid "settings_configuration_header"
+msgstr "Configuration keys"
+
+msgid "settings_configuration_info"
+msgstr "You'll find the configuration keys after logging to your"
+
+msgid "settings_configuration_link_text"
+msgstr "Adquesto account"
+
+msgid "adquesto_subscriber"
+msgstr "Adquesto subscriber"
+
+msgid "settings_newly_added_categories"
+msgstr "Enable Adquesto for newly added categories"
+
+msgid "settings_display_header_master_switch"
+msgstr "Activate Adquesto"
+
+msgid "settings_master_switch_is_off"
+msgstr "Adquesto is off"
+
+msgid "settings_master_switch_is_off_hint"
+msgstr "Quests will not be displayed on any posts"
+
+msgid "settings_master_switch_is_on"
+msgstr "Adquesto is on"
+
+msgid "settings_master_switch_is_on_hint"
+msgstr "Quests will be displayed according to the display settings"
+
+msgid "settings_positioning_header"
+msgstr "Quest’s default position"
+
+msgid "settings_positioning_subheader"
+msgstr "Choose where in the post the quest should be displayed by default (you can overwrite this for individual posts)."
+
+msgid "settings_positioning_upper"
+msgstr "Higher"
+
+msgid "settings_positioning_upper_hint"
+msgstr "This option is recommended for websites with mainly short posts (1500-2500 characters), e.g. most news content or posts with video as the main content."
+
+msgid "settings_positioning_lower"
+msgstr "Lower"
+
+msgid "settings_positioning_lower_hint"
+msgstr "This option is recommended for websites where longer entries (over 2,500 characters) predominate, e.g. longform journalism and in-depth articles."
+
+msgid "settings_display_for_users_hint"
+msgstr "Do not display quests to logged in administrators, editors and authors"
